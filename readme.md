@@ -4,6 +4,11 @@ Terminal client for Twitter
 Read your timeline, send tweets and messages from your native terminal app \
 by [usegravity.app](https://usegravity.app)
 
+## Requirements
+
+* node.js 
+* twitter developer account
+
 ## Installation
 
 ```shell
@@ -12,7 +17,11 @@ npm install twerminal -g
 
 ### Install via Github
 
-If you downloaded the package from Github, run the npm link command so you use the twerminal keyword.
+If you downloaded the package from Github, run the npm link command so you can use the twerminal keyword.
+
+```shell
+npm link
+```
 
 ### Register a Twitter Application
 
