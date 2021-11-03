@@ -1,8 +1,8 @@
 # Twerminal
 
 Terminal client for Twitter
-Read your timeline, send tweets and messages from your native terminal app
-by Kyle Gawley [usegravity.app](https://usegravity.app)
+Read your timeline, send tweets and messages from your native terminal app \
+by [usegravity.app](https://usegravity.app)
 
 ## Installation
 
@@ -10,10 +10,16 @@ by Kyle Gawley [usegravity.app](https://usegravity.app)
 npm install twerminal -g
 ```
 
+### Install via Github
+
+If you downloaded the package from Github, run the npm link command so you use the twerminal keyword.
+
+### Register a Twitter Application
+
 Next, [create a new application in the Twitter developer portral](https://developer.twitter.com/en/portal/projects-and-apps) add the following Twitter authentication keys to the /config.js file:
 
-* Your API key
-* Your API key secret
+* API key
+* API key secret
 * Access token
 * Access token secret
 
