@@ -1,8 +1,8 @@
 # Twerminal
 
 Terminal client for Twitter
-Read your timeline, send tweets and messages from your native terminal app \
-by [usegravity.app](https://usegravity.app)
+Read your timeline, send tweets and messages from your native terminal app. \
+Built with Javascript by [usegravity.app](https://usegravity.app)
 
 ## Requirements
 
