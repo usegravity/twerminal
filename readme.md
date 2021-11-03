@@ -26,13 +26,18 @@ npm link
 
 ### Register a Twitter Application
 
-Next, [create a new application in the Twitter developer portal](https://developer.twitter.com/en/portal/projects-and-apps) add the following Twitter authentication keys to the /config.js file:
+Next, [create a new application in the Twitter developer portal](https://developer.twitter.com/en/portal/projects-and-apps) 
 
-* API key
-* API key secret
-* Access token
-* Access token secret
+### Config
 
+Now, add your API keys from the previous step to the NPM config by running the following commands in any order:
+
+```shell
+npm config set TWITTER_API_KEY=your_twitter_api_key
+npm config set TWITTER_API_SECRET=your_twitter_api_key_secret
+npm config set TWITTER_ACCESS_TOKEN=your_twitter_access_token
+npm config set TWITTER_ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
+```
 
 ## Usage
 ```shell
