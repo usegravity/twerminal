@@ -12,7 +12,7 @@ by [usegravity.app](https://usegravity.app)
 ## Installation
 
 ```shell
-npm install twerminal -g
+npm i twerminal -g
 ```
 
 ### Install via Github
@@ -20,12 +20,13 @@ npm install twerminal -g
 If you downloaded the package from Github, run the npm link command so you can use the twerminal keyword.
 
 ```shell
+npm i
 npm link
 ```
 
 ### Register a Twitter Application
 
-Next, [create a new application in the Twitter developer portral](https://developer.twitter.com/en/portal/projects-and-apps) add the following Twitter authentication keys to the /config.js file:
+Next, [create a new application in the Twitter developer portal](https://developer.twitter.com/en/portal/projects-and-apps) add the following Twitter authentication keys to the /config.js file:
 
 * API key
 * API key secret
