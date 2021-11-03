@@ -6,7 +6,7 @@ Built with Javascript by [usegravity.app](https://usegravity.app)
 
 ## Requirements
 
-* node.js 
+* node.js v15+
 * twitter developer account
 
 ## Installation
